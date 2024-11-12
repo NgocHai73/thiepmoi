@@ -828,7 +828,7 @@ background-attachment: fixed;
 .card-body .groom_name, .card-body .bride_name {
     font-family: var(--secondary-font);
     font-size: var(--title-fs);
-    font-size: 20px;
+    font-size: 18px;
 }
 /* Base Styling */
 
