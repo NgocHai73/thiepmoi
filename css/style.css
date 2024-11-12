@@ -827,7 +827,8 @@ background-attachment: fixed;
 }
 .card-body .groom_name, .card-body .bride_name {
     font-family: var(--secondary-font);
-    font-size: var(--title-fs)
+    font-size: var(--title-fs);
+    font-size: 20px;
 }
 /* Base Styling */
 
@@ -1244,6 +1245,7 @@ background-attachment: fixed;
 } */
 /* end GỬI QUà */
 /* THANK YOU */
+
 .section-thankyou{
     position: relative;
     display: flex;
