@@ -337,7 +337,7 @@ body {
 
 .bg_overlay {
     box-shadow: inset 0 0 0 2000px 
-    rgba(0 0 0 /.6)
+    rgba(77, 76, 76, 0.6)
 }
 
 .kenburns-top {
@@ -1257,10 +1257,9 @@ background-attachment: fixed;
     text-align: center;
 }
 .thankyou-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
+    background-color: #f7f9fc;
+    border-radius: 8px;
 }
 .thankyou-bg {
     position: absolute;
@@ -1270,13 +1269,16 @@ background-attachment: fixed;
     z-index: -1;
 }
 .thankyou-title {
-    font-size: 64px;
-    font-family: var(--secondary-font);
-    line-height: 1.6;
+    font-family: 'Brush Script MT', cursive;
+    color: #ff5c5c;
+    font-size: 2.5rem;
 }
 .thankyou-des {
-    font-size: 20px;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.5;
     text-align: center;
+    margin-top: 10px;
 }
 .social {
     display: grid;
